@@ -1,0 +1,17 @@
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/students_db # not jdbc:
+    username: postgres
+    password: 12345
+  flyway:
+    user: postgres
+    password: 12345
+    url: jdbc:postgresql://localhost:5432/students_db # it should be jdbc
+  sql:
+    init:
+      mode: always
+
+
+#
+#  main:
+#    web-application-type: reactive

@@ -1,0 +1,33 @@
+# Genel Git Ayarları
+.DS_Store
+Thumbs.db
+*.log
+
+# IntelliJ IDEA Dosyaları
+.idea/
+*.iml
+
+# Maven
+target/
+
+# Gradle
+.gradle/
+build/
+
+# Angular
+node_modules/
+dist/
+.angular/
+
+# Çevresel Değişkenler ve Çalışma Alanı
+.env
+*.env
+
+# OS'ye Özgü Dosyalar
+*.swp
+*.swo
+*.swn
+*.bak
+
+# Git Tarafından Üretilen Dosyalar
+.git/

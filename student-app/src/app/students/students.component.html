@@ -1,0 +1,16 @@
+<table class="table table-hover table-bordered">
+  <thead class="thead-dark">
+  <tr>
+    <th>#</th>
+    <th>İsim</th>
+    <th>Numara</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let student of students; let i = index">
+    <td>{{ i + 1 }}</td>
+    <td>{{ student.firstname }}</td>
+    <td>{{ student.number }}</td>
+  </tr>
+  </tbody>
+</table>
