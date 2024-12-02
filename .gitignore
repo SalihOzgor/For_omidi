@@ -7,6 +7,9 @@ Thumbs.db
 .idea/
 *.iml
 
+# VS Code ayarları
+.vscode/
+
 # Maven
 target/
 
